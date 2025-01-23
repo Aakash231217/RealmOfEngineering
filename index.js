@@ -3,6 +3,13 @@ import readlineSync from "readline-sync";
 import dotenv from "dotenv";
 
 dotenv.config();
+const OPEN_API_KEY='apna daal le bhai'
+
+
+
+const client = new OpenAI({
+    apiKey:OPEN_API_KEY,
+})
 
 
 
